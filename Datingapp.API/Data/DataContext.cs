@@ -12,5 +12,7 @@ namespace Datingapp.API.Data
         // after need to tell application startup.cs about it (inject as a service addDbContext)
         public DbSet<Value> Values { get; set; }
 
+        public DbSet<User> Users {get; set;}
+
     }
 }
